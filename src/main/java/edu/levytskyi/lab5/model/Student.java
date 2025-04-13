@@ -34,7 +34,7 @@ public class Student {
     }
 
     // Явне перевизначення equals/hashCode лише за ID, якщо НЕ використовується @Data
-    /*
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -47,5 +47,5 @@ public class Student {
     public int hashCode() {
         return Objects.hash(id);
     }
-    */
+
 }
