@@ -22,7 +22,7 @@ import java.util.Optional;
 import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
-public class StudentServiceTests { // <--- НАЗВА КЛАСУ ТАКА ЯК У ФАЙЛА
+public class StudentServiceTests {
 
     @Autowired
     private StudentService studentService;
